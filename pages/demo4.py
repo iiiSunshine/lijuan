@@ -9,7 +9,7 @@ model=ChatOpenAI(
     temperature=0.8,#创新性
     model="glm-4-plus",
     base_url="https://open.bigmodel.cn/api/paas/v4/",
-    api_key="e210867e75503a51d642ec7f809cab2f.pNhLRYP2pdFLfjuJ",#
+    api_key="534c7cc9f092ca9b41d4a4c344bc27a8.Jca2Uii4HiEGjIZ9",#
 )
 ConversationBuffer = ConversationBufferMemory()
 if "memory" not in st.session_state:
