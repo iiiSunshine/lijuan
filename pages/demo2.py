@@ -10,7 +10,7 @@ model = ChatOpenAI(
     temperature=0.8,  # 创新性
     model="glm-4-plus",
     base_url="https://open.bigmodel.cn/api/paas/v4/",
-    api_key="9ee0c01ef679f3b2d14f1d2e25f5371a.FZvJ83u5XiL3KJmJ",
+    api_key="534c7cc9f092ca9b41d4a4c344bc27a8.Jca2Uii4HiEGjIZ9",
 )
 
 # 构建缓存保存聊天记录
