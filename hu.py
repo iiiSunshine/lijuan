@@ -7,7 +7,7 @@ with c1:
     if flag1:
         st.switch_page("pages/demo1.py")
 with c2:
-    st.image("https://iknow-pic.cdn.bcebos.com/10dfa9ec8a136327c1fd81ae838fa0ec08fac71f",use_column_width=True)
+    st.image("https://pic2.zhimg.com/v2-e9fe02911227e55327de9de4572c1221_r.jpg",use_column_width=True)
     flag2 = st.button("花花",use_container_width=True)
     if flag2:
         st.switch_page("pages/demo1.py")
