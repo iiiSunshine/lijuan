@@ -12,7 +12,6 @@ with c2:
     if flag2:
         st.switch_page("pages/demo1.py")
 with c3:
-     st.image("https://iknow-pic.cdn.bcebos.com/b64543a98226cffc2585392fab014a90f703ea84",use_column_width=True)
     flag3=st.button("咪咪",use_container_width=True)
     if flag3:
         st.switch_page("pages/demo1.py")
