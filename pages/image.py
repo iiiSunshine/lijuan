@@ -3,7 +3,7 @@ from zhipuai import ZhipuAI
 import streamlit as st
 
 st.title("AI绘画")
-client = ZhipuAI(api_key="9ee0c01ef679f3b2d14f1d2e25f5371a.FZvJ83u5XiL3KJmJ")  # 请填写您自己的APIKey
+client = ZhipuAI(api_key="534c7cc9f092ca9b41d4a4c344bc27a8.Jca2Uii4HiEGjIZ9")  # 请填写您自己的APIKey
 
 if "cache" not in st.session_state:
     st.session_state.cache = []
