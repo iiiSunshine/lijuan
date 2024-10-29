@@ -2,7 +2,8 @@ import streamlit as  st
 st.title("Chatbot")
 c1,c2,c3,c4=st.columns(4)
 with c1:
-    flag1 = st.button("初级")
+    st.image("https://pic.sogou.com/d?query=%E7%BE%8E%E5%A5%B3&forbidqc=&entityid=&preQuery=&rawQuery=&queryList=&st=&channel=pc_pic&scene=pic_result&did=42",use_column_width=True)
+    flag1 = st.button("快来和我聊天",use_container_width=True)
     if flag1:
         st.switch_page("pages/demo1.py")
 with c2:
