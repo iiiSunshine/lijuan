@@ -12,14 +12,17 @@ with c2:
     if flag2:
         st.switch_page("pages/demo1.py")
 with c3:
-    flag3=st.button("咪咪")
+     st.image("https://pic2.zhimg.com/v2-e9fe02911227e55327de9de4572c1221_r.jpg",use_column_width=True)
+    flag3=st.button("咪咪",use_container_width=True)
     if flag3:
         st.switch_page("pages/demo1.py")
 with c4:
-    flag4=st.button("美美")
+     st.image("https://pic2.zhimg.com/v2-e9fe02911227e55327de9de4572c1221_r.jpg",use_column_width=True)
+    flag4=st.button("美美",use_container_width=True)
     if flag4:
         st.switch_page("pages/demo1.py")
 with c4:
-    flag4=st.button("小黑")
+     st.image("https://pic2.zhimg.com/v2-e9fe02911227e55327de9de4572c1221_r.jpg",use_column_width=True)
+    flag4=st.button("小黑",use_container_width=True)
     if flag4:
         st.switch_page("pages/image.py")
