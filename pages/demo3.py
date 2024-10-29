@@ -11,7 +11,7 @@ model = ChatOpenAI(
     temperature=0.8,  # 创新性
     model="glm-4-plus",
     base_url="https://open.bigmodel.cn/api/paas/v4/",
-    api_key="9ee0c01ef679f3b2d14f1d2e25f5371a.FZvJ83u5XiL3KJmJ",
+    api_key="534c7cc9f092ca9b41d4a4c344bc27a8.Jca2Uii4HiEGjIZ9",
 )
 # 创建提示词对象
 prompt = PromptTemplate.from_template("你的名字叫小丽，你现在要扮演全知，你的性格是谨慎冷漠的，你现在要和向你寻求帮助的人交谈，你只需要回答他们的问题，不要和他们说有关具体提问，他们说的是{input}")
