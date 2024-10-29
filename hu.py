@@ -12,16 +12,14 @@ with c2:
     if flag2:
         st.switch_page("pages/demo2.py")
 with c3:
-    flag3=st.button("咪咪",use_container_width=True)
+    flag3=st.button("进阶2")
     if flag3:
-        st.switch_page("pages/demo3.py")
+        st.switch_page("pages/demo1.py")
 with c4:
-     st.image("https://img1.baidu.com/it/u=1493092819,2012763429&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=800",use_column_width=True)
-    flag4=st.button("美美",use_container_width=True)
+    flag4=st.button("进阶3")
     if flag4:
-        st.switch_page("pages/demo4.py")
+        st.switch_page("pages/demo1.py")
 with c4:
-     st.image("https://img2.baidu.com/it/u=3086518359,3242772898&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",use_column_width=True)
-    flag4=st.button("小黑",use_container_width=True)
+    flag4=st.button("图片")
     if flag4:
         st.switch_page("pages/image.py")
