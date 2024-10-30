@@ -11,15 +11,15 @@ with c2:
     flag2 = st.button("花花",use_container_width=True)
     if flag2:
         st.switch_page("pages/demo2.py")
-#with c3:
+with c3:
     #flag3=st.button("小白")
     #if flag3:
         st.switch_page("pages/demo1.py")
-#with c4:
+with c4:
     #flag4=st.button("美美")
     #if flag4:
         #st.switch_page("pages/demo1.py")
-#with c4:
+with c4:
     #flag4=st.button("图片")
     #if flag4:
         vst.switch_page("pages/image.py")
